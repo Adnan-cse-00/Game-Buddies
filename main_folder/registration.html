@@ -3,34 +3,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registration</title>
-    <style>
-        body
-        {
-            background-color: #F5E5E1;
-            font-family: "Trade Winds", system-ui;
-        }
-        .container
-        {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-            height: 100vh;
 
-        }
-        .item
-        {
-            font-size: 100px;
-        }
-    </style>
+    <link rel="stylesheet" href="../style_folder/registration_style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Asimovian&family=BBH+Sans+Bartle&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sono:wght@200..800&family=Trade+Winds&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
-        <div class="item">Under Contruction </div><br>
-        <h2>We Will Be Back Soon...</h2>
+    <div class="gc">
+        <div class="it1"></div>
+        <div class="it2">
+            <form action="">
+                <label for="">First Name<span style="color: red;">*</span></label><br>
+                <input type="text" placeholder="first name" required><br>
+
+                <label for="">Last Name<span style="color: red;">*</span></label><br>
+                <input type="text" placeholder="last name" required> <br>
+
+                <label for="email">Email Address<span style="color: red;">*</span></label><br>
+                <input type="email" placeholder="example@gmail.com" name="email" required> <br>
+
+                <label for="pass">Password<span style="color: red;">*</span></label><br>
+                <input type="password" placeholder="Enter your password" required><br>    
+
+                <label for="password">Confirm Password<span style="color: red;">*</span></label><br>
+                <input type="password" placeholder="Confirm password" required>
+
+                <input type="button" value="Submit">
+            </form>
+        </div>
+        <div class="it3"></div>
     </div>
 </body>
 </html>
